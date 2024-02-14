@@ -1,0 +1,37 @@
+{
+  "prodotto1": {
+    "id": 1,
+    "productName": "Chais",
+    "categoryId": 1,
+    "unit": "10 boxes x 20 bags",
+    "price": 18
+  },
+  "prodotto2": {
+    "id": 2,
+    "productName": "Chang",
+    "categoryId": 1,
+    "unit": "24 - 12 oz bottles",
+    "price": 18
+  },
+  "prodotto3": {
+    "id": 3,
+    "productName": "Aniseed Syrup",
+    "categoryId": 2,
+    "unit": "12 - 550 ml bottles",
+    "price": 18
+  },
+  "prodotto4": {
+    "id": 4,
+    "productName": "Chef Anton's Cajun Seasoning",
+    "categoryId": 2,
+    "unit": "48 - 6 oz jars",
+    "price": 18
+  },
+  "prodotto5": {
+    "id": 5,
+    "productName": "Chef Anton's Gumbo Mix",
+    "categoryId": 2,
+    "unit": "36 boxes",
+    "price": 18
+  }
+}
