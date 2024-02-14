@@ -1,9 +1,15 @@
 package com.ecommerce.springboot.model;
 
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+
 import java.util.List;
 
 public class Product {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int productId;
     private String productName;
     private int categoryId = new Category().getCategoryId();
