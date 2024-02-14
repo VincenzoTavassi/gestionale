@@ -1,0 +1,8 @@
+{
+"clientid":1,
+"clientname":"Marco",
+"address":"via dei dalmati",
+"city":"Roma",
+"cap":00183,
+"country":"Italy"
+}
