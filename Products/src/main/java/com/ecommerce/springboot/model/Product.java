@@ -3,6 +3,7 @@ package com.ecommerce.springboot.model;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.ManyToOne;
 
 import java.util.List;
 
@@ -12,6 +13,7 @@ public class Product {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int productId;
     private String productName;
+    @ManyToOne
     private int categoryId = new Category().getCategoryId();
     private String unit;
     private double price;

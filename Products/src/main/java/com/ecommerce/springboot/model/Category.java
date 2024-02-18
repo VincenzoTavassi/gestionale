@@ -3,15 +3,17 @@ package com.ecommerce.springboot.model;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
 
 public class Category {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @OneToMany(mappedBy = "categoryId")
     private int categoryId;
     private String categoryName;
     private String description;
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public int getCategoryId() {
         return categoryId;
     }
