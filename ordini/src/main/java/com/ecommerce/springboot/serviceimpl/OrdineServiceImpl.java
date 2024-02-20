@@ -7,17 +7,18 @@ import org.springframework.stereotype.Service;
 
 import java.util.Date;
 import java.util.List;
+
 @Service
 public class OrdineServiceImpl implements OrderService {
 
-  //  private ClientService repoC;
+    //  private ClientService repoC;
 
     private OrdineRepository repoO;
 
 
-   // public OrdineServiceImpl(ClientRepository repoC, OrdineRepository repoO) {
+    // public OrdineServiceImpl(ClientRepository repoC, OrdineRepository repoO) {
     //    this.repoC = repoC;
-     //   this.repoO = repoO;
+    //   this.repoO = repoO;
     //}
 
     @Override

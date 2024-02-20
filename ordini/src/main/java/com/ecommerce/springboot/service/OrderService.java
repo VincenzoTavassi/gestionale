@@ -7,7 +7,8 @@ import java.util.Date;
 import java.util.List;
 
 public interface OrderService {
-    public void aggiuntaOrderDetail(Order order,long id);
+    public void aggiuntaOrderDetail(Order order, long id);
+
     public Order getByID(long id);
 
     public List<Order> getAll();

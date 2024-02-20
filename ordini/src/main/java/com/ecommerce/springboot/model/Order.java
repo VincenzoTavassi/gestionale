@@ -10,14 +10,13 @@ public class Order {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     //@JsonBackReference
-   // @ManyToOne
-   // @JoinColumn(nullable = false)
+    // @ManyToOne
+    // @JoinColumn(nullable = false)
     //private Client cliente;
 
 
     @Column(nullable = false)
     private Date orderdate;
-
 
 
     public long getId() {
