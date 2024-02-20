@@ -18,6 +18,16 @@ public class Product {
     private String unit;
     private double price;
 
+    public Product() {
+    }
+
+    public Product(String productName, int categoryId, String unit, double price) {
+        this.productName = productName;
+        this.categoryId = categoryId;
+        this.unit = unit;
+        this.price = price;
+    }
+
     public int getProductId() {
         return productId;
     }
@@ -56,5 +66,15 @@ public class Product {
 
     public void setPrice(double price) {
         this.price = price;
+    }
+
+    @Override
+    public String toString() {
+        return "Product: " +
+                "productId=" + productId +
+                ", productName='" + productName + '\'' +
+                ", categoryId=" + categoryId +
+                ", unit='" + unit + '\'' +
+                ", price=" + price;
     }
 }
